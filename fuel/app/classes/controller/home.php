@@ -6,7 +6,7 @@ class Controller_Home extends Controller
     {
         //変数としてビューを割り当てる
         $view = View::forge('template/index'); //テンプレートとなるビューファイルの読込み
-        $view->set('head','あいうえお');
+        $view->set('head',View::forge('template/head'));
         $view->set('contents',View::forge('home/content'));
         $view->set('footer',View::forge('template/footer'));
         $view->set_global('username','usernamedesu');

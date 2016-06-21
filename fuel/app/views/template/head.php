@@ -6,7 +6,7 @@
  * Time: 14:13
  */
 ?>
+<meta charset="utf-8">
 <title>pagetitle</title>
-fuel/app/views/template/head.php
-<div class="logo"></div>
-<div class="logo_text">sitetitle</div>
+<?php echo Asset::css('bootstrap.css'); ?>
+<link rel="icon" href="<?php echo Asset::get_file('favicon.ico', 'img','icons/'); ?>" type="image/png">

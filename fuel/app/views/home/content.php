@@ -7,6 +7,12 @@
  */
 ?>
 <h1>title</h1>
-<div class="welcome_user">Welcome <?php echo $username; ?></div>
-fuel/app/views/home/content.php
-edited
+<div class="welcome_user">Welcome あなたの名前は<?php echo $username; ?></div>
+<?php echo Asset::img('logo.png',array('style'=>'height:auto;width:500px;','alt'=>'タイトル画像')); ?>
+<p>
+    <?php echo Html::anchor('welcome','トップへ'); ?>
+</p>
+
+
+<?php Asset::add_path('assets/upload/', 'img'); ?>
+<?php echo Asset::img('user_img.png',array('style'=>'height:auto;width:200px;','alt'=>'タイトル画像')); ?>
