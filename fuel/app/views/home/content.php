@@ -7,7 +7,7 @@
  */
 ?>
 <h1>title</h1>
-<div class="welcome_user">Welcome あなたの名前は<?php echo $username; ?></div>
+<div class="welcome_user">Welcome</div>
 <?php echo Asset::img('logo.png',array('style'=>'height:auto;width:500px;','alt'=>'タイトル画像')); ?>
 <p>
     <?php echo Html::anchor('welcome','トップへ'); ?>
