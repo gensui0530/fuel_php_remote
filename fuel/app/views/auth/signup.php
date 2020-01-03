@@ -1,7 +1,7 @@
 <div class="ctn-main">
     <section class="ctn-form">
         <h1>ユーザー登録</h1>
-        <?=var_dump($formData); ?>
+        
         <?php
             if(!empty($error)):
         ?>
