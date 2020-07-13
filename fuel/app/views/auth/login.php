@@ -1,6 +1,6 @@
 <div class="ctn-main">
-    <section class="ctn-form">
-        <h2>Sign Up !!</h2>
+    <section class='ctn-form'>
+        <h2>Login !!</h2>
 
         <?php
         if (!empty($error)) :
@@ -17,6 +17,9 @@
         <?php
         endif;
         ?>
-        <?= $signupform ?>
+
+        <?= $loginform ?>
+
+
     </section>
 </div>
